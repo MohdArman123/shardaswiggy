@@ -71,7 +71,7 @@ public class App {
     private static Map<Integer, Dish> readDishes() throws IOException {
         Map<Integer, Dish> dishMap = new HashMap<>();
 
-        BufferedReader dishReader = Files.newBufferedReader(Paths.get("C:\\Users\\ADITYA\\IdeaProjects\\Sharda_Swiggy\\Sharda_Swiggy\\data\\Dish.csv"),
+        BufferedReader dishReader = Files.newBufferedReader(Paths.get("C:\\Users\\arman\\IdeaProjects\\shardaswiggy\\data\\Dish.csv"),
                 StandardCharsets.UTF_8
         );
 
